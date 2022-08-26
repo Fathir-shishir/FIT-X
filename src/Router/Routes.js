@@ -1,5 +1,6 @@
 import Home from "../pages/Home";
 import Services from "../pages/Services";
+import OurClasses from "../pages/OurClasses";
 
 
 export const AppRoutes = [
@@ -12,5 +13,10 @@ export const AppRoutes = [
         path: '/Services',
         exact: true,
         renderPage: <Services />
+    },
+    {
+        path: '/Schedules',
+        exact: true,
+        renderPage: <OurClasses />
     }
 ]
