@@ -2,6 +2,7 @@ import Home from "../pages/Home";
 import Services from "../pages/Services";
 import OurClasses from "../pages/OurClasses";
 import Pricing from "../pages/Pricing";
+import AboutUs from "../pages/AboutUs";
 
 
 export const AppRoutes = [
@@ -24,5 +25,10 @@ export const AppRoutes = [
         path: '/Pricing',
         exact: true,
         renderPage: <Pricing />
+    },
+    {
+        path: '/About',
+        exact: true,
+        renderPage: <AboutUs />
     }
 ]

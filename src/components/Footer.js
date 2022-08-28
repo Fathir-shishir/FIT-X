@@ -36,7 +36,7 @@ const Footer = () => <footer className='bg-secondary'>
                 <button className="btn btn-primary">Subscribe Now</button>
             </Col>
         </Row>
-        <p className="text-center text-primary bg-secondary w-100 m-0"> <small > &copy; Copyright 2022 || Developed by Hasanul-Banna</small></p>
+        <p className="text-center text-primary bg-secondary w-100 m-0"> <small > &copy; Copyright 2022</small></p>
     </div>
 </footer>
 
